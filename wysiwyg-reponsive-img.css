@@ -1,0 +1,7 @@
+.wysiwyg img {
+  max-width:100%;
+  display:block;
+  height: auto;
+}
+/* To make images added to the wysiwyg responsive on mobile devices as well. */
+/* Style applied are the same as what bootstrap's "img-responsive" class applies */

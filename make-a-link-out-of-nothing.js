@@ -1,16 +1,17 @@
-var customField = document.querySelector("paste-in-your-css-selector-here");
+// var siteElement = document.querySelector("paste-in-your-css-selector-here");
+// siteElement.onmouseover = function() {
+// 	this.style.cursor = "pointer";
+// };
 
-if (customField.innerText = "paste the content of the custom field") {
-customField.onclick = function(){
-	window.location = "https:///www.example.com";  //give the link here
+
+
+var makeLink = {
+	defaultLang:{text:"",link:""},
 }
-} else if (customField.innerText = "paste in the other language content") {
-customField.onclick = function(){
-	window.location = "https:///www.example.com";  //give the other link here
-}
-};
 
+makeLink.french = {text:"hello",link:""};
+// Make another one of these for each language. french, dutch, etc.
 
-customField.onmouseover = function() {
-	this.style.cursor = "pointer";
-};
+var greeting = "hello";
+
+console.log(Object.values(makeLink));
